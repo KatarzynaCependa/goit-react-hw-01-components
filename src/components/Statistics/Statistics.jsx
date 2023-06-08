@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import css from 'components/Statistics/Statistics.module.css';
+// import css from 'components/Statistics/Statistics.module.css';
 
 export const Statistics = ({ title, stats }) => {
   return (
@@ -22,8 +22,8 @@ Statistics.propTypes = {
   stats: PropTypes.array,
 };
 
-function getRandomHexColor() {
-  return `#${Math.floor(Math.random() * 16777215)
-    .toString(16)
-    .padStart(6, 0)}`;
-}
+// function getRandomHexColor() {
+//   return `#${Math.floor(Math.random() * 16777215)
+//     .toString(16)
+//     .padStart(6, 0)}`;
+// }
