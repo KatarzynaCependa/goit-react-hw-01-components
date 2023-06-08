@@ -24,8 +24,8 @@ const FriendListItem = ({ avatar, name, isOnline = true }) => {
       ) : (
         <span className={css.false}></span>
       )}
-      <img class="avatar" src={avatar} alt="User avatar" width="48" />
-      <p class="name">{name}</p>
+      <img className={css.avatar} src={avatar} alt="User avatar" width="48" />
+      <p className={css.name}>{name}</p>
     </li>
   );
 };
