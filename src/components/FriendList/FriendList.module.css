@@ -1,0 +1,22 @@
+.friendList {
+  list-style: none;
+}
+
+.true {
+  background-color: green;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.false {
+  background-color: red;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.item {
+  display: flex;
+  margin-bottom: 30px;
+}
