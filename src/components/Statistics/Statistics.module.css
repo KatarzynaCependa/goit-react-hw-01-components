@@ -1,0 +1,30 @@
+.statistics {
+  display: table;
+  margin: 40px auto;
+  width: 500px;
+}
+
+.title {
+  text-align: center;
+}
+
+.statList {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  justify-content: space-around;
+  display: flex;
+  margin-top: 30px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 25px 35px;
+  border-radius: 5px;
+}
+
+.percentage {
+  font-size: large;
+}

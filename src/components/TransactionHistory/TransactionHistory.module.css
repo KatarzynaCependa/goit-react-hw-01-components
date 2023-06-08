@@ -16,5 +16,6 @@ td {
 
 tr:hover {
   background-color: #d5f4e6;
+  color: gray;
   cursor: pointer;
 }
